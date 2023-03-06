@@ -21,6 +21,43 @@
 </head>
 
 <body>
-    <h1>iniciando...</h1>
+    <!--========Header========-->
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="assets/images/logo.png" alt="Logo">
+            </a>
+            <div class="search__wiew">
+                <div class="search__wapper">
+                    <input type="search" name="search" placeholder="Buscar cidade..." autocomplete="off" class="search__field">
+                    <span class="search__icon"><i class="uil uil-search"></i></span>
+                    <button class="icon__btn">
+                        <span class="search__icon"><i class="uil uil-arrow-left"></i></span>
+                    </button>
+                </div>
+                <div class="search__result">
+                    <ul class="list">
+                        <li class="item">
+                            <span class="search__icon"><i class="uil uil-location-pin-alt"></i></span>
+                            <div>
+                                <p class="item__title">São Paulo</p>
+                                <p class="label__2 item__subtitle">São Paulo, BR</p>
+                            </div>
+                            <a href="#" class="item__link"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="actions">
+                <button class="icon__btn state">
+                    <span class="search__icon icon"><i class="uil uil-search"></i></span>
+                </button>
+                <a href="#/current__location" class="btn__primary state">
+                    <span class="search__icon"><i class="uil uil-map-pin"></i></span>
+                    <span class="span">localização atual</span>
+                </a>
+            </div>
+        </div>
+    </header>
 </body>
 </html>
