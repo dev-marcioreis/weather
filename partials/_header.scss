@@ -1,14 +1,16 @@
 .header {
     box-shadow: $shadow;
+    background: $dark-color;
 
     .container {
         max-width: 1600px;
-        width: 100%;
+        width: 98%;
         margin-inline: auto;
         padding: .5rem;
         display: flex;
         align-items: center;
         justify-content: space-between;
+        transition: $transition;
 
         .search__wiew {
             position: fixed;
@@ -130,6 +132,10 @@
 
         .logo {
             width: 3rem;
+
+            .logo__name {
+                display: none;
+            }
         }
 
         .icon__btn {
@@ -208,4 +214,47 @@
 
 .header .btn__primary .span {
     display: none;
+}
+
+
+/*==========Media Query==========*/
+@media (min-width: 1024px) {
+    .header {
+    
+        .container {
+            width: 94%;
+    
+            .search__wiew {
+                width: 30%;
+            }
+    
+            .state {
+                background: $light-blue;
+    
+                &:hover {
+                    background: $light-blue;
+                }
+            }
+
+            .logo {
+                display: flex;
+                align-items: center;
+                gap: .5rem;
+                width: 3rem;
+    
+                .logo__name {
+                    color: $white-color;
+                    text-transform: capitalize;
+                    font-weight: 1000;
+                    letter-spacing: 5px;
+                    display: inline-block;
+                }
+            }
+        }
+    }
+    
+    .header .btn__primary .span {
+        display: inline-block;
+    }
+    
 }
