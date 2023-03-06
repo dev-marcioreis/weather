@@ -1,0 +1,52 @@
+.section {
+
+    .current__weather-card {
+
+        .title__2 {
+            color: $text-color;
+            text-transform: capitalize;
+        }
+
+        .weapper {
+            display: flex;
+            align-items: center;
+            gap: .3rem;
+            margin-block: .8rem;
+
+            .weather__icon {
+                margin-inline: auto;
+                width: 4rem;
+                height: 4rem;
+            }
+        }
+
+        .body__3 {
+            color: $text-color;
+        }
+
+        .current__weather-list {
+            margin-block-start: 1rem;
+            padding-block-start: 1rem;
+            border-block-start: 1px solid hsla(0, 0%, 13%, 0.103);
+
+            .current__weather-item {
+                display: flex;
+                align-items: center;
+                gap: .5rem;
+
+                &:not(:last-child) {
+                    margin-block-end: .9rem;
+                }
+
+                .btn__icon {
+                    color: $white-color;
+                }
+
+                .current__text {
+                    color: $text-color;
+                    text-transform: capitalize;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,33 @@
+.forecast {
+
+    .forecast__card {
+
+        .forecast__list {
+
+            .item {
+
+                .icon__wrapper {
+
+                    .weather__icon {
+                        width: 2.2rem;
+                        height: 2.2rem;
+                        filter: brightness(2);
+                    }
+
+                    .span {
+                        display: grid;
+                        
+                        .title__2 {
+                            color: $white-color;
+                            font-size: 1rem;
+                        }
+                    }
+                }
+
+                .label__1 {
+                    text-transform: capitalize;
+                }
+            }
+        }
+    }
+}
