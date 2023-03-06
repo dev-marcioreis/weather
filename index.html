@@ -31,18 +31,18 @@
             <div class="search__wiew">
                 <div class="search__wapper">
                     <input type="search" name="search" placeholder="Buscar cidade..." autocomplete="off" class="search__field">
-                    <span class="search__icon icon__search"><i class="uil uil-search"></i></span>
+                    <span class="btn__icon icon__search"><i class="uil uil-search"></i></span>
                     <button class="icon__btn loading__icon">
-                        <span class="search__icon"><i class="uil uil-arrow-left"></i></span>
+                        <span class="btn__icon"><i class="uil uil-arrow-left"></i></span>
                     </button>
                 </div>
                 <div class="search__result">
                     <ul class="list">
                         <li class="item">
-                            <span class="search__icon"><i class="uil uil-location-pin-alt"></i></span>
+                            <span class="btn__icon"><i class="uil uil-location-pin-alt"></i></span>
                             <div>
                                 <p class="item__title">São Paulo</p>
-                                <p class="label__2 item__subtitle">São Paulo, BR</p>
+                                <p class="label__2 item__subtitle">São Paulo, Brasil</p>
                             </div>
                             <a href="#" class="item__link"></a>
                         </li>
@@ -51,10 +51,10 @@
             </div>
             <div class="actions">
                 <button class="icon__btn state">
-                    <span class="search__icon icon"><i class="uil uil-search"></i></span>
+                    <span class="btn__icon icon"><i class="uil uil-search"></i></span>
                 </button>
                 <a href="#/current__location" class="btn__primary state">
-                    <span class="search__icon"><i class="uil uil-map-pin"></i></span>
+                    <span class="btn__icon"><i class="uil uil-map-pin"></i></span>
                     <span class="span">localização atual</span>
                 </a>
             </div>
@@ -62,6 +62,35 @@
     </header>
 
     <!--========Main========-->
+    <main class="main">
+        <article class="container">
+            <div class="content__left">
+
+                <!--========Current Weather========-->
+                <section class="section current__weather">
+                    <div class="card card__large current__weather-card">
+                        <h2 class="title__2 card__title">agora</h2>
+                        <div class="weapper">
+                            <p class="card__heading">29&deg; <sup>c</sup></p>
+                            <img src="assets/images/icons/01d.png" alt="Weather Image" class="weather__icon">
+                        </div>
+                        <p class="body__3">algumas nuvens</p>
+                        <ul class="current__weather-list">
+                            <li class="current__weather-item">
+                                <span class="btn__icon"><i class="uil uil-calendar-alt"></i></span>
+                                <p class="title__3 current__text">06 março, 2023</p>
+                            </li>
+                            <li class="current__weather-item">
+                                <span class="btn__icon"><i class="uil uil-map-pin"></i></span>
+                                <p class="title__3 current__text">São Paulo, Brasil</p>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+            </div>
+        </article>
+    </main>
 
 
 

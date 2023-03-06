@@ -1,0 +1,21 @@
+.section {
+
+    .card {
+
+        .title__2 {
+            color: $blue-color;
+        }
+
+        .weapper {
+
+            .card__heading {
+                color: $red-color;
+            }
+
+            .weather__icon {
+                width: 4rem;
+                height: 4rem;
+            }
+        }
+    }
+}

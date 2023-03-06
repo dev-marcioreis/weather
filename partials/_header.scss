@@ -3,10 +3,6 @@
     background: $dark-color;
 
     .container {
-        max-width: 1600px;
-        width: 98%;
-        margin-inline: auto;
-        padding: .5rem;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -137,78 +133,6 @@
                 display: none;
             }
         }
-
-        .icon__btn {
-            background: $blue-color;
-            width: 2rem;
-            height: 2rem;
-            display: grid;
-            place-items: center;
-            border-radius: 5rem;
-            box-shadow: $shadow-2;
-            color: $white-color;
-            transition: $transition;
-
-            &:hover {
-                background: $light-blue;
-                color: $blue-color;
-            }
-        }
-
-        .state {
-            position: relative;
-            transition: $transition;
-
-            &:hover {
-                background: $light-blue;
-                color: $blue-color;
-            }
-
-            &:is(:focus, :focus-visible) {
-                box-shadow: none;
-            }
-
-            &::before {
-                content: '';
-                position: absolute;
-                inset: 0;
-                border-radius: inherit;
-                clip-path: circle(100% at 50% 50%);
-                transition: $transition;
-            }
-
-            &:hover::before {
-                background: $light-blue;
-            }
-        }
-
-        .btn__primary {
-            background: $blue-color;
-            color: $white-color;
-            height: 2rem;
-            line-height: 2rem;
-            max-width: max-content;
-            display: flex;
-            align-items: center;
-            gap: 1rem;
-            padding-inline: 1rem;
-            border-radius: .5rem;
-            box-shadow: $shadow-2;
-
-            .span {
-                font-weight: $weight-semiBold;
-            }
-
-            &[disabled] {
-                background: $light-blue;
-                color: $light-blue;
-                cursor: not-allowed;
-            }
-
-            &[disabled]::before {
-                display: none;
-            }
-        }
     }
 }
 
@@ -226,14 +150,6 @@
     
             .search__wiew {
                 width: 30%;
-            }
-    
-            .state {
-                background: $light-blue;
-    
-                &:hover {
-                    background: $light-blue;
-                }
             }
 
             .logo {
