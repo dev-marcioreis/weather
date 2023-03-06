@@ -15,11 +15,12 @@
 
 /*==========Root==========*/
 $red-color: hsl(349, 98%, 58%);
-$blue-color: hsl(192, 98%, 47%);
+$blue-color: hsl(202, 74%, 52%);
+$light-blue: hsla(202, 74%, 52%, 0.171);
 $dark-color: hsl(0, 0%, 13%);
 $white-color: hsl(0, 0%, 100%);
 $transparent-color: hsla(0, 0%, 0%, 0);
-$transition: all 100ms ease;
+$transition: all 400ms ease;
 $bg-color: hsl(218, 29%, 95%);
 
 $shadow: 0 1px 4px hsla(0, 0%, 0%, 0.2);
