@@ -50,8 +50,9 @@ sup {
     vertical-align: top;
 }
 sub, sup {
-    font-size: .75rem;
+    font-size: 1.2rem;
     line-height: 2;
+    font-weight: 300;
 }
 :focus-visible {
     outline: 2px solid $white-color;
@@ -135,5 +136,47 @@ sub, sup {
         display: none;
     }
 }
-
-  
+.card {
+    background: $blue-color;
+    box-shadow: $shadow-2;
+}
+.card__large {
+    border-radius: 1rem;
+    padding: 1rem;
+}
+.card__small {
+    padding: .5rem;
+    border-radius: .5rem;
+}
+.headers {
+    color: $white-color;
+    font-size: 2rem;
+    line-height: 1.1;
+}
+.title__1 {
+    font-size: 2rem;
+}
+.title__2 {
+    font-size: 1.4rem;
+    margin-block-end: .7rem;
+}
+.title__3 {
+    font-size: .9rem;
+    font-weight: $weight-semiBold;
+}
+.body__1 {
+    font-size: 1.2rem;
+}
+.body__2 {
+    font-size: 1rem;
+    font-weight: $weight-semiBold;
+}
+.body__3 {
+    font-size: .9rem;
+}
+.label__1 {
+    font-size: 1.4rem;
+}
+.label__2 {
+    font-size: 1rem;
+}
