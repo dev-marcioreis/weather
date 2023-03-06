@@ -5,6 +5,13 @@
         .title__2 {
             color: $text-color;
             text-transform: capitalize;
+            display: flex;
+            align-items: center;
+            gap: .2rem;
+
+            span {
+                color: $white-color;
+            }
         }
 
         .weapper {
