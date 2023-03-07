@@ -6,8 +6,7 @@ html {
 body {
     color: $text-color;
     background: $bg-color;
-    overflow: hidden;
-
+    
     &::-webkit-scrollbar {
         width: .4rem;
         height: .4rem;
@@ -50,7 +49,7 @@ sup {
     vertical-align: top;
 }
 sub, sup {
-    font-size: 1.2rem;
+    font-size: 1rem;
     line-height: 2;
     font-weight: 300;
 }
@@ -206,4 +205,57 @@ sub, sup {
 .forecast__card .item > .label__1 {
     width: 100%;
     text-align: right;
+}
+.highlights .btn__icon {
+    font-size: 1.2rem;
+}
+.highlights__list {
+    display: grid;
+    gap: 1.2rem;
+}
+.highlights__list .title__3 {
+    color: $white-color;
+    margin-block-end: 1rem;
+    font-size: 1rem;
+    font-weight: 200;
+    display: flex;
+    align-items: center;
+    gap: .2rem;
+}
+.highlights .card__small {
+    position: relative;
+    background: hsla(0, 0%, 100%, 0.11);
+}
+.highlight__card :is(.wrapper, .card__list, .card__item) {
+    display: flex;
+    align-items: center;
+}
+.highlight__card .wrapper {
+    justify-content: space-between;
+    gap: 1rem;
+}
+.highlight__card .card__list {
+    flex-wrap: wrap;
+    flex-grow: 1;
+    row-gap: .5rem;
+}
+.highlight__card .card__item {
+    width: 50%;
+    justify-content: center;
+    gap: .2rem;
+}
+.highlight__card .badge {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    padding: .2rem .6rem;
+    font-weight: $weight-semiBold;
+    border-radius: 5rem;
+    box-shadow: $shadow;
+    cursor: help;
+}
+.badge.q__1 {
+    background: $white-color;
+    color: $blue-color;
+    font-size: .8rem;
 }

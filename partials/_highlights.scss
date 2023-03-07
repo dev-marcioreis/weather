@@ -1,4 +1,5 @@
 .highlights {
+    padding-block-end: 2rem;
 
     .card__large {
 
@@ -18,6 +19,56 @@
 
             .card {
                 box-shadow: none;
+            }
+
+            .highlight__card {
+
+                .card__list {
+
+                    .card__item {
+
+                        .btn__icon {
+                            color: $white-color;
+                        }
+
+                        .label__1 {
+                            color: $text-color;
+                        }
+
+                        .title__1 {
+                            font-size: 1.2rem;
+                        }
+                    }
+                }
+            }
+
+            .highlight__card {
+                
+                .wrapper {
+
+                    .card__list {
+
+                        .card__item {
+
+                            .title__1 {
+                                font-size: 1rem;
+                                padding-block-start: .5rem;
+                            }
+
+                            .label__1 {
+                                font-size: .8rem;
+                            }
+                        }
+                    }
+
+                    .btn__icon {
+                        font-size: 1.5rem;
+                    }
+
+                    .title__1 {
+                        font-size: 1.4rem;
+                    }
+                }
             }
         }
     }
