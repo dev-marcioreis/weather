@@ -7,7 +7,7 @@ O objetivo principal é o aperfeiçoamento em SASS.
 
 ## 🚀 Finalizado.
 
-## 📋 Técnologias
+## 📋 Tecnologias
 SASS
 
 ## ✒️ Autor
